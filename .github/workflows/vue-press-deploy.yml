@@ -12,6 +12,6 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.TOKEN }}
           TARGET_REPO: xiasiyong1/learn-docs
-          TARGET_BRANCH: master
+          TARGET_BRANCH: gh_pages
           BUILD_SCRIPT: yarn && yarn build
           BUILD_DIR: docs/.vuepress/dist
